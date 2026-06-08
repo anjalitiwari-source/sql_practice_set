@@ -1,40 +1,66 @@
-# Employee Management Database – SQL Queries
+# SQL Query Projects – SSMS
 
 ##  Introduction  
-This assignment demonstrates practical SQL queries built on an Employee Management System. The focus is on learning how to manipulate and analyze data using SQL Server in SSMS.
+This repository contains multiple SQL assignments solved using **SQL Server Management Studio (SSMS)**. Each assignment demonstrates practical use of SQL queries for different database systems.
 
-##  Key Concepts Practiced  
-- Defining tables with `CREATE TABLE`  
-- Adding records using `INSERT`  
-- Modifying data with `UPDATE`  
-- Removing entries via `DELETE`  
-- Applying conditions using `WHERE`  
-- Grouping results with `GROUP BY`  
-- Using aggregate functions (`SUM`, `AVG`, `COUNT`)  
-- Sorting and filtering data  
-- Extracting Top N records  
+---
 
-##  Database Used  
-- Table: **emp**
+##  Assignment 1 – Employee Management System  
+### Key Concepts  
+- Table creation (`CREATE TABLE`)  
+- Record insertion (`INSERT`)  
+- Updating and deleting records  
+- Filtering with `WHERE`  
+- Grouping and aggregation (`SUM`, `AVG`, `COUNT`)  
+- Sorting and Top N queries  
 
-##  Query Highlights  
-- Build Employee Table structure  
-- Populate table with sample records  
-- Revise employee salary details  
-- Change project status values  
-- Remove specific employee entries  
-- Retrieve employees based on salary range  
-- Filter employees by city  
-- Count employees department‑wise  
-- Analyze salary distribution per department  
-- Calculate average salary per city  
-- Identify top 3 highest paid employees  
-- Generate report of completed projects  
+### Queries Implemented  
+- Create Employee table  
+- Insert employee records  
+- Update salary and project status  
+- Delete employee record  
+- Filter employees by salary and city  
+- Department-wise employee count  
+- Department salary analysis  
+- City-wise average salary  
+- Top 3 highest paid employees  
+- Completed project analysis  
 
-##  Tools & Environment  
+---
+
+##  Assignment 2 – Banking Management System  
+### Key Concepts  
+- Relational schema with **Customers, Accounts, Transactions, Loans**  
+- Joins (`INNER JOIN`, `LEFT JOIN`)  
+- Aggregate queries (SUM, COUNT, MIN, MAX)  
+- Subqueries and window functions (`RANK`, `DENSE_RANK`, `LAG`, `LEAD`)  
+- Advanced analysis with running totals and conditions  
+
+### Queries Implemented  
+- Display customer names, account numbers, balances  
+- Top 3 customers by balance  
+- Customers with loans and loan details  
+- Total deposits vs withdrawals  
+- Customer-wise transaction totals  
+- Customers with balance above average  
+- Highest transaction per customer  
+- Customers without loans  
+- Transaction count per customer  
+- Ranking customers by balance (`RANK`, `DENSE_RANK`)  
+- Previous and next transactions (`LAG`, `LEAD`)  
+- Running total of transactions  
+- Second highest balance using subquery/window function  
+- Customers with more than 2 transactions  
+- Min and Max transaction per customer  
+
+---
+
+##  Technologies Used  
 - Microsoft SQL Server  
 - SQL Server Management Studio (SSMS)  
 
-##  Prepared By  
+##  Author  
 - Anjali Tiwari  
+
+---
 
