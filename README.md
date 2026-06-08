@@ -15,7 +15,7 @@ This assignment demonstrates practical SQL queries built on an Employee Manageme
 - Extracting Top N records  
 
 ##  Database Used  
-- Table: **employees1**
+- Table: **emp**
 
 ##  Query Highlights  
 - Build Employee Table structure  
